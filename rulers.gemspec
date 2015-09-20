@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Rulers::VERSION
   gem.authors       = ["Baozi Wu"]
   gem.email         = ["baojjeu@gmail.com"]
-  gem.description   = %q{A Rack-based Web Framework}
-  gem.summary       = %q{A Rack-based Web Framework}
-  gem.homepage      = ""
+  gem.description   = %q{A Rack-based Web Framework's description}
+  gem.summary       = %q{A Rack-based Web Framework's summary}
+  gem.homepage      = "http://example.com"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
